@@ -24,9 +24,8 @@ public class FindUserByIdServlet extends  HelloServlet {
         User user = dao.getUserById(Integer.valueOf(id));
 
         if(req.getParameter("id")==null){ resp.setStatus(HttpServletResponse.SC_BAD_REQUEST);return;}
-        //if(req.getParameter("name")==null){ resp.setStatus(HttpServletResponse.SC_BAD_REQUEST);return;}
+        if(req.getParameter("user")==null){ resp.setStatus(HttpServletResponse.SC_NOT_FOUND);return;}
         resp.setContentType("text/html;charset=UTF-8");
-
         writer.println("<!DOCTYPE html>");
         writer.println("<html>");
         writer.println("<body>");
