@@ -4,6 +4,7 @@ import searchengine.dao.UsersRepositoryDao;
 import searchengine.dao.UsersRepositoryDaoBean;
 import searchengine.domain.User;
 
+import javax.ejb.EJB;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -13,11 +14,14 @@ import java.io.PrintWriter;
 import java.util.List;
 
 @WebServlet("/find-user-by-id")
-public class FindUserByIdServlet extends  HelloServlet {
+public class FindUserByIdServlet extends  HelloServlet  {
+    @EJB UsersRepositoryDao dao;// zamiast new
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         if(req.getParameter("id")==null){ resp.setStatus(HttpServletResponse.SC_BAD_REQUEST);return;}
-        UsersRepositoryDao dao =new UsersRepositoryDaoBean();
+        //UsersRepositoryDao dao =new UsersRepositoryDaoBean();
+
+
         List<User> list =dao.getUsersList();
 
         PrintWriter writer = resp.getWriter();

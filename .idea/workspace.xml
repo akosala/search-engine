@@ -4,8 +4,6 @@
     <list default="true" id="91addc56-61fc-406f-a42a-8580de8c2ea7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/search-engine.war" afterPath="$PROJECT_DIR$/target/search-engine.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/searchengine/dao/UsersRepositoryDao.java" afterPath="$PROJECT_DIR$/src/main/java/searchengine/dao/UsersRepositoryDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/searchengine/dao/UsersRepositoryDaoBean.java" afterPath="$PROJECT_DIR$/src/main/java/searchengine/dao/UsersRepositoryDaoBean.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/searchengine/servlets/FindUserByIdServlet.java" afterPath="$PROJECT_DIR$/src/main/java/searchengine/servlets/FindUserByIdServlet.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -78,8 +76,8 @@
       <file leaf-file-name="WelcomeUserServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/searchengine/servlets/WelcomeUserServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="30" column="1" lean-forward="false" selection-start-line="14" selection-start-column="3" selection-end-line="30" selection-end-column="1" />
+            <state relative-caret-position="306">
+              <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindUserByIdServlet.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FindUserByIdServlet.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/searchengine/servlets/FindUserByIdServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="19" column="61" lean-forward="false" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+            <state relative-caret-position="191">
+              <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,7 +97,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UsersRepositoryDao.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UsersRepositoryDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/searchengine/dao/UsersRepositoryDao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -115,7 +113,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/searchengine/dao/UsersRepositoryDaoBean.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -164,9 +162,9 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jboss-web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/searchengine/servlets/HelloServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/searchengine/servlets/WelcomeUserServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/searchengine/servlets/FindUserByIdServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/searchengine/dao/UsersRepositoryDaoBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/searchengine/dao/UsersRepositoryDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/searchengine/servlets/FindUserByIdServlet.java" />
       </list>
     </option>
   </component>
@@ -467,7 +465,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511018486199</updated>
-      <workItem from="1511018488001" duration="12779000" />
+      <workItem from="1511018488001" duration="13440000" />
     </task>
     <task id="LOCAL-00001" summary="ssss">
       <created>1511023957244</created>
@@ -511,19 +509,25 @@
       <option name="project" value="LOCAL" />
       <updated>1511031024693</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="pobieranie danych z bazy plus obsługa błedu poprawka przekształcenie do BEN">
+      <created>1511032957780</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1511032957780</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12779000" />
+    <option name="totallyTimeSpent" value="13440000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -599,7 +603,8 @@
     <MESSAGE value="pobieranie danych z baty" />
     <MESSAGE value="pobieranie danych z bazy plus obsługa błedu" />
     <MESSAGE value="pobieranie danych z bazy plus obsługa błedu poprawka" />
-    <option name="LAST_COMMIT_MESSAGE" value="pobieranie danych z bazy plus obsługa błedu poprawka" />
+    <MESSAGE value="pobieranie danych z bazy plus obsługa błedu poprawka przekształcenie do BEN" />
+    <option name="LAST_COMMIT_MESSAGE" value="pobieranie danych z bazy plus obsługa błedu poprawka przekształcenie do BEN" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -661,26 +666,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/searchengine/servlets/WelcomeUserServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="30" column="1" lean-forward="false" selection-start-line="14" selection-start-column="3" selection-end-line="30" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/searchengine/servlets/FindUserByIdServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="19" column="61" lean-forward="false" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/searchengine/dao/UsersRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -694,7 +679,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/searchengine/dao/UsersRepositoryDaoBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -705,6 +690,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/searchengine/servlets/WelcomeUserServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/searchengine/servlets/FindUserByIdServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
