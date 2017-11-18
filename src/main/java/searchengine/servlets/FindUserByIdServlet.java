@@ -15,7 +15,7 @@ import java.util.List;
 
 @WebServlet("/find-user-by-id")
 public class FindUserByIdServlet extends  HelloServlet  {
-    @EJB UsersRepositoryDao dao;// zamiast new
+    @EJB UsersRepositoryDao dao;// zamiast new odwołanie do inteface
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         if(req.getParameter("id")==null){ resp.setStatus(HttpServletResponse.SC_BAD_REQUEST);return;}
