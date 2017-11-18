@@ -16,15 +16,16 @@ import java.util.List;
 public class FindUserByIdServlet extends  HelloServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        UsersRepositoryDaoBean dao =new UsersRepositoryDaoBean();
+        if(req.getParameter("id")==null){ resp.setStatus(HttpServletResponse.SC_BAD_REQUEST);return;}
+        UsersRepositoryDao dao =new UsersRepositoryDaoBean();
         List<User> list =dao.getUsersList();
 
         PrintWriter writer = resp.getWriter();
         String id = req.getParameter("id");
         User user = dao.getUserById(Integer.valueOf(id));
 
-        if(req.getParameter("id")==null){ resp.setStatus(HttpServletResponse.SC_BAD_REQUEST);return;}
-        if(req.getParameter("user")==null){ resp.setStatus(HttpServletResponse.SC_NOT_FOUND);return;}
+
+        if(user==null){ resp.setStatus(HttpServletResponse.SC_NOT_FOUND);return;}
         resp.setContentType("text/html;charset=UTF-8");
         writer.println("<!DOCTYPE html>");
         writer.println("<html>");
