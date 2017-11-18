@@ -30,7 +30,7 @@ public class FindUserByIdServlet extends  HelloServlet {
         writer.println("<!DOCTYPE html>");
         writer.println("<html>");
         writer.println("<body>");
-        writer.println("Imie z bazy dla numeru :   " +id+"    "+ user.getName() + "   "+user.getSurname()+ "<br/>");
+        writer.println("Imie z bazy dla numeru :   " +id+"    "+ user.getName() + "   "+user.getSurname()+"  "+ user.getLogin()+"<br/>");
         writer.println("</body>");
         writer.println("</html>");
 

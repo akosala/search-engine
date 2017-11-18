@@ -1,9 +1,9 @@
 package searchengine.dao;
-
+import javax.ejb.Stateless;
 import searchengine.domain.User;
 
 import java.util.List;
-
+@Stateless
 public class UsersRepositoryDaoBean implements UsersRepositoryDao {
 
 
