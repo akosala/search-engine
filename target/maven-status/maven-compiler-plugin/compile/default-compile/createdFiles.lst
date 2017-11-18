@@ -1,1 +1,6 @@
+searchengine/domain/User.class
+searchengine/dao/UsersRepositoryDao.class
 searchengine/servlets/HelloServlet.class
+com/infoshareacademy/searchengine/Main.class
+searchengine/dao/UsersRepositoryDaoBean.class
+searchengine/dao/UsersRepository.class
